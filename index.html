@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+<style>
+body{
+background-color:#FF6D36 ;
+}
+h3{
+text-align:center;color:purple;text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<h3> Image Maps</h3>
+<p>The HTML map tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more area tags.
+<br><br>
+<i><b>How Does it Work?</b></i><br>
+The idea behind an image map is that you should be able to perform different actions depending on where in the image you click. To create an image map you need an image, and some HTML code that describes the clickable areas.<br><br>
+1.Use the HTML map element to define an image map.<br><br>
+2.Use the HTML area element to define the clickable areas in the image map.<br><br>
+3.Use the HTML usemap attribute of the img element to point to an image map.</br><br>
+<i><b>Click on the Laptop, the Book, the story book or the cup of coffee to go to a new page and read more about the topic.</b></i></p>
+
+<img src="https://www.shutterstock.com/image-photo/note-book-laptop-mouse-coffee-260nw-1109091758.jpg" usemap="#table" >
+
+<map name="table">
+<area coords="66,35,78,144,142,205,284,156,217,107,217,10,217,11" title="Laptop " href="https://htmlcolorcodes.com/" shape="poly">
+<area coords="309,100,326,92,344,100,346,110,374,119,333,156,310,141,309,121" title="cup " href="https://www.starbucks.ca/" shape="poly">
+<area coords="56,154,1,181,0,217,55,262,76,257,143,221,143,203" title="books with phone " href="https://en.wikipedia.org/wiki/Main_Page" shape="poly">
+
+</map>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
